@@ -44,7 +44,7 @@ function isBanned(userId: string | undefined | null): boolean {
 }
 
 export default definePlugin({
-    name: "FakeBanByXCV",
+    name: "BanByXCV",
     description: "Make specific users appear banned when viewing their profile",
     authors: [{ name: "xcv", id: 0n }],
     settings,
